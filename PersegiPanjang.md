@@ -17,7 +17,7 @@ Flowchart Luas Persegi Panjang
 ---
 
 ```mermaid
-flowchart TD
+flowchart TD;
     A([Mulai])-->B{{int panjang, lebar, luas, keliling}}
     B-->C[/panjang, lebar/]
     C-->D(luas = panjang * lebar 
