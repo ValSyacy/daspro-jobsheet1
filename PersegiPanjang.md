@@ -16,6 +16,8 @@ print "luas" dan "keliling
 Flowchart Luas Persegi Panjang
 ---
 
+##Mermaid
+
 '''mermaid
 flowchart td
 mulai([Mulai])-->
