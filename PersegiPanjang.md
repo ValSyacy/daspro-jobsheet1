@@ -1,4 +1,4 @@
-# Luas dan Keliling Persegi Panjang #
+# Pseudocode Luas dan Keliling Persegi Panjang #
 
 Deklarasi int panjang, lebar, luas, keliling
 
