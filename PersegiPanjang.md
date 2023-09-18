@@ -12,9 +12,7 @@ keliling = 2 * panjang + lebar
 
 print "luas" dan "keliling
 
----
-Flowchart Luas Persegi Panjang
----
+# Flowchart Luas Persegi Panjang #
 
 ```mermaid
 flowchart TD;
