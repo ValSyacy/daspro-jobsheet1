@@ -5,7 +5,7 @@ Deklarasi int panjang, lebar, luas, keliling
 print "nilai panjang"\
 input nilai panjang\
 print "nilai lebar"\
-input nilai lebar\
+input nilai lebar
 
 luas = panjang * lebar\
 keliling = 2 * panjang + lebar
