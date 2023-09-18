@@ -2,12 +2,12 @@
 
 Deklarasi int panjang, lebar, luas, keliling
 
-print "nilai panjang"
-input nilai panjang
-print "nilai lebar"
-input nilai lebar
+print "nilai panjang"\
+input nilai panjang\
+print "nilai lebar"\
+input nilai lebar\
 
-luas = panjang * lebar
+luas = panjang * lebar\
 keliling = 2 * panjang + lebar
 
 print "luas" dan "keliling
