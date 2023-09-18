@@ -1,25 +1,26 @@
 # Mencoba Alur Balik
 https://github.com/ValSyacy/latihan4/blob/c70c5c371207f7c5a358ea28be9832649daebcac/Persegi%20Panjang/PersegiPanjang.java
 
-dengan menguploud job sheet1 ke git hub
-import java.util.Scanner;
+dengan menguploud job sheet1 ke git hub\
 
-public class PersegiPanjang {
-    public static void main(String[] args) {
+    import java.util.Scanner;
 
-        Scanner input = new Scanner(System.in);
+        public class PersegiPanjang {
+            public static void main(String[] args) {
 
-        int panjang, lebar, luas, keliling;
+            Scanner input = new Scanner(System.in);
 
-        System.out.println("Masukkan Nilai Panjang");
-        panjang=input.nextInt();
-        System.out.println("\nMasukkan Nilai Lebar");
-        lebar=input.nextInt();
+            int panjang, lebar, luas, keliling;
 
-        luas= panjang * lebar;
-        keliling= 2 * panjang + lebar;
+            System.out.println("Masukkan Nilai Panjang");
+            panjang=input.nextInt();
+            System.out.println("\nMasukkan Nilai Lebar");
+            lebar=input.nextInt();
 
-        System.out.println("\nHasil Luas Adalah = " +luas);
-        System.out.println("Hasil Keliling Adalah = " +keliling);
+            luas= panjang * lebar;
+            keliling= 2 * panjang + lebar;
+
+            System.out.println("\nHasil Luas Adalah = " +luas);
+            System.out.println("Hasil Keliling Adalah = " +keliling);
+        }
     }
-}
