@@ -16,6 +16,7 @@ print "luas" dan "keliling
 Flowchart Luas Persegi Panjang
 ---
 
+```mermaid
 flowchart TD
     A([Mulai])-->B{{int panjang, lebar, luas, keliling}}
     B-->C[/panjang, lebar/]
@@ -23,3 +24,4 @@ flowchart TD
     keliling = 2 * panjang + lebar)
     D-->E[/luas, keliling/]
     E-->F([selesai])
+```
