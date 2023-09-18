@@ -18,8 +18,7 @@ print "luas" dan "keliling
 flowchart TD;
     A([Mulai])-->B{{int panjang, lebar, luas, keliling}}
     B-->C[/panjang, lebar/]
-    C-->D(luas = panjang * lebar
-    keliling = 2 * panjang + lebar)
+    C-->D(luas = panjang * lebar keliling = 2 * panjang + lebar)
     D-->E[/luas, keliling/]
     E-->F([selesai])
 ```
