@@ -15,10 +15,12 @@ print "luas" dan "keliling
 ---
 Flowchart Luas Persegi Panjang
 ---
-flowchart td
-mulai([Mulai])
-deklarasi{{int panjang, lebar, luas, keliling}}
-input[/panjang, lebar/]
-proses(luas = panjang * lebar | keliling = 2 * panjang + lebar)
-output[/luas, keliling/]
 
+'''mermaid
+flowchart td
+mulai([Mulai])-->
+deklarasi{{int panjang, lebar, luas, keliling}}-->
+input[/panjang, lebar/]-->
+proses(luas = panjang * lebar | keliling = 2 * panjang + lebar)-->
+output[/luas, keliling/]-->
+'''
